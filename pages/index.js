@@ -28,11 +28,11 @@ const index = () => {
                 </h1>
                 <p className="px-40 max-lg:px-20 max-md:px-12 max-sm:px-4 text-32 italic ">
                   {" "}
-                  Introducing EDC's latest venture: "Pitch. Get Roasted.
-                  Elevate" Have a startup idea? We're here to give it a witty
-                  twist, pinpoint its strengths, and highlight areas for
-                  improvement. Stay tuned. The ultimate startup roast experience
-                  is brewing !
+                  Introducing EDC&apos;s latest venture: &quot;Pitch. Get
+                  Roasted. Elevate&quot; Have a startup idea? We&apos;re here to
+                  give it a witty twist, pinpoint its strengths, and highlight
+                  areas for improvement. Stay tuned. The ultimate startup roast
+                  experience is brewing !
                 </p>
               </div>
               <div className="text-orange">

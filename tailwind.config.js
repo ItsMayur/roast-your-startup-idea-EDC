@@ -2,12 +2,23 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
-	],
+    "./pages/**/*.{js,jsx}",
+    "./components/**/*.{js,jsx}",
+    "./app/**/*.{js,jsx}",
+    "./src/**/*.{js,jsx}",
+  ],
   theme: {
+    letterSpacing: {
+      1: "0em",
+      2: "0.025em",
+      3: "0.05em",
+      4: "0.25em",
+    },
+    colors: {
+      orange: "#FC8800",
+      white: "#fff",
+      black: "#000",
+    },
     container: {
       center: true,
       padding: "2rem",
@@ -73,4 +84,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};
